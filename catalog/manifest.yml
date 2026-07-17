@@ -1,0 +1,20 @@
+# Flipper Application Catalog manifest for Morse Trainer.
+# This file goes into your fork of flipper-application-catalog at:
+#   applications/Games/morse_trainer/manifest.yml
+#
+# Before submitting:
+#   1. Replace <GITHUB_USERNAME> with your GitHub username.
+#   2. Replace commit_sha with the full SHA of the repo commit that
+#      contains the screenshots (git rev-parse HEAD).
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/<GITHUB_USERNAME>/flipper-morse-trainer.git
+    commit_sha: REPLACE_WITH_COMMIT_SHA
+short_description: Learn Morse code from zero through progressive levels
+description: "@README.md"
+changelog: "@changelog.md"
+screenshots:
+  - screenshots/ss0.png
+  - screenshots/ss1.png
+  - screenshots/ss2.png
