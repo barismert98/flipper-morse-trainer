@@ -1,11 +1,11 @@
-# Flipper Application Catalog manifest for Morse Trainer.
+﻿# Flipper Application Catalog manifest for Morse Trainer.
 # Copy into a fork of flipper-application-catalog at:
 #   applications/Games/morse_trainer/manifest.yml
 sourcecode:
   type: git
   location:
     origin: https://github.com/barismert98/flipper-morse-trainer.git
-    commit_sha: cd974ad75a61a332c5a3fdff156c897a8344d6ff
+    commit_sha: f6d46f2df2bec96a7c9a5900d4c3f7d38a7c9338
 short_description: Learn Morse code from zero through progressive levels
 description: "@README.md"
 changelog: "@changelog.md"
