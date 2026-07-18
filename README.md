@@ -2,8 +2,6 @@
 
 A Flipper Zero game that teaches Morse code from zero through 13 progressive levels.
 
-![icon](icon.png)
-
 ## Features
 
 - **Three training modes** with independent progress: **Encoding** (you key the Morse), **Decoding** (you identify what you hear), and **Mixed**
@@ -18,7 +16,7 @@ A Flipper Zero game that teaches Morse code from zero through 13 progressive lev
 
 ## Controls
 
-### Encoding questions
+**Encoding questions**
 | Key | Action |
 |-----|--------|
 | OK (short hold) | dot |
@@ -27,7 +25,7 @@ A Flipper Zero game that teaches Morse code from zero through 13 progressive lev
 | Left | clear current attempt |
 | Up | letter hint (costs a hint) |
 
-### Decoding questions
+**Decoding questions**
 | Key | Action |
 |-----|--------|
 | Left / Right | select answer (wraps around) |
