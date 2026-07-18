@@ -1,44 +1,34 @@
 # Morse Trainer
 
-A Flipper Zero game that teaches Morse code from zero through 13 progressive levels.
+Learn Morse code on your Flipper Zero, starting from absolute zero.
 
-## Features
+I made this because I wanted to actually learn Morse instead of staring at a chart. You start with just E and T, and each level adds a few more letters. Every few levels there is a challenge round where you spell real words. By the final level you know the whole alphabet and the numbers.
 
-- **Three training modes** with independent progress: **Encoding** (you key the Morse), **Decoding** (you identify what you hear), and **Mixed**
-- **13-level curriculum** ordered by symbol simplicity — from E/T up to full alphabet, digits, and callsign-style words
-- **Challenge levels** every few levels: spell real words drawn from a rotating vocabulary pool
-- **Free Practice mode**: key anything, the app decodes it live; play it back with Up
-- **Adaptive review**: letters you keep missing show up more often
-- **Real keying feel**: hold-to-key with live sidetone (speaker + LED), a visual dot/dash threshold bar, and Farnsworth-spaced playback for beginners
-- **Hints**: 50/50 on multiple choice (Down) or a letter reference card while encoding (Up) — 2 per level
-- Stars per level (80% = ★, 90% = ★★, perfect = ★★★), daily streak, lifetime stats
-- Everything configurable: sound, vibration, letter gaps, pattern visuals, LED
+## Modes
+
+- Encoding: the app shows a letter, you key it in Morse with the OK button
+- Decoding: the app beeps and vibrates a letter, you pick what you heard
+- Mixed: both of the above, randomly
+- Practice: free keying sandbox, whatever you key gets decoded live on screen
+
+Each mode keeps its own level progress.
 
 ## Controls
 
-**Encoding questions**
-| Key | Action |
-|-----|--------|
-| OK (short hold) | dot |
-| OK (long hold, past the bar's tick mark) | dash |
-| *pause* | commits the letter |
-| Left | clear current attempt |
-| Up | letter hint (costs a hint) |
+Encoding: short press OK for a dot, hold it for a dash. A small bar fills while you hold so you can see exactly where a dot turns into a dash. Stop keying for a moment and the letter commits on its own. Left clears your attempt, Up shows the letters of the level as a hint.
 
-**Decoding questions**
-| Key | Action |
-|-----|--------|
-| Left / Right | select answer (wraps around) |
-| OK | confirm |
-| Up | replay audio |
-| Down | 50/50 hint (costs a hint) |
+Decoding: Left and Right pick an answer, OK confirms, Up replays the sound, Down removes two wrong choices. You get 2 hints per level.
 
-Back twice abandons a level. Progress is saved to the SD card after every run.
+Press Back twice to quit a level. Progress saves to the SD card by itself.
 
-## Requirements
+## Extras
 
-No extra hardware — uses the built-in speaker, vibro motor, and LED.
+- Letters you keep missing start showing up more often until you fix them
+- Relaxed letter spacing option for beginners (Farnsworth style)
+- Sound, vibration, LED and pattern visibility can all be toggled in settings
+- Stars per level, a daily streak counter and lifetime stats
+- No extra hardware needed, just the Flipper itself
 
 ## Building
 
-Built with ufbt: run "ufbt launch" from the project root.
+Run ufbt launch in the project root.
