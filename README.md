@@ -33,7 +33,7 @@ A Flipper Zero game that teaches Morse code from zero through 13 progressive lev
 | Up | replay audio |
 | Down | 50/50 hint (costs a hint) |
 
-Back twice abandons a level. Progress is saved to SD (`apps_data/morse_trainer/`) after every run.
+Back twice abandons a level. Progress is saved to the SD card after every run.
 
 ## Requirements
 
@@ -41,8 +41,4 @@ No extra hardware — uses the built-in speaker, vibro motor, and LED.
 
 ## Building
 
-Built with [ufbt](https://github.com/flipperdevices/flipperzero-ufbt):
-
-```
-ufbt launch
-```
+Built with ufbt: run "ufbt launch" from the project root.
