@@ -5,7 +5,7 @@ sourcecode:
   type: git
   location:
     origin: https://github.com/barismert98/flipper-morse-trainer.git
-    commit_sha: f6d46f2df2bec96a7c9a5900d4c3f7d38a7c9338
+    commit_sha: ac0a60e6f678cab7732f7e41be5e7546e02a5810
 short_description: Learn Morse code from zero through progressive levels
 description: "@README.md"
 changelog: "@changelog.md"
